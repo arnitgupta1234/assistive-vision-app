@@ -1,7 +1,0 @@
-streamlit
-streamlit-webrtc
-torch
-transformers
-pytesseract
-gTTS
-pillow
