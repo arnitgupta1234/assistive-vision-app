@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: assistive-vision-app
+    env: python
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: streamlit run app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
