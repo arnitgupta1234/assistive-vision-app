@@ -4,4 +4,4 @@ torch
 transformers
 pytesseract
 gTTS
-av
+pillow
