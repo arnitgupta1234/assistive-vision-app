@@ -10,7 +10,6 @@ numpy
 opencv-python
 pandas
 pillow
-playsound
 pytesseract
 pyttsx3
 requests
