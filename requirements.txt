@@ -1,0 +1,7 @@
+streamlit
+streamlit-webrtc
+torch
+transformers
+pytesseract
+gTTS
+av
