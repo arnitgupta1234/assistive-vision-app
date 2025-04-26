@@ -1,3 +1,9 @@
+import os
+
+os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
+os.environ["STREAMLIT_SERVER_ENABLECORS"] = "false"
+os.environ["STREAMLIT_SERVER_PORT"] = "10000"
+os.environ["STREAMLIT_SERVER_ADDRESS"] = "0.0.0.0"
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer, VideoProcessorBase, WebRtcMode
 import av
