@@ -1,3 +1,4 @@
+pip>=25.1
 av
 display
 easyocr
@@ -9,7 +10,6 @@ numpy
 opencv-python
 pandas
 pillow
-pip>=25.1
 playsound
 pytesseract
 pyttsx3
